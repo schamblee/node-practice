@@ -1,4 +1,4 @@
-import { aggregateMeasurementsByLocationAndDate } from './problem1';
+import { aggregateMeasurementsByLocationAndDate } from '../practice_problems/data-transformation-1';
 
 describe('Data Aggregation', () => {
   // Sample test data
@@ -67,7 +67,6 @@ describe('Data Aggregation', () => {
 
   it('should aggregate measurements by location and date', () => {
     const result = aggregateMeasurementsByLocationAndDate(rawMeasurements);
-    console.log("Aggregation results:", JSON.stringify(result, null, 2));
     
     // Expected results after aggregation
     expect(result.length).toBe(4); // 3 unique site/date combinations
