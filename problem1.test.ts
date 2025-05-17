@@ -1,6 +1,6 @@
-import { aggregateMeasurementsByLocationAndDate } from './index';
+import { aggregateMeasurementsByLocationAndDate } from './problem1';
 
-describe('Wastewater Data Aggregation', () => {
+describe('Data Aggregation', () => {
   // Sample test data
   const rawMeasurements = [
     {
